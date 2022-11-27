@@ -1,0 +1,38 @@
+* {
+    font-family: 'Outfit';
+}
+
+body {
+    background-color: #D1E1EF;
+}
+
+.container {
+    width:100%;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    vertical-align: middle;
+}
+
+.wrapper {
+    max-width:282px;
+    display: block;
+    background-color: #fff;
+    border-radius: 4%;
+    box-shadow: #000 3px 3px 50px;
+}
+
+.img {
+    width: 250px;
+    margin: 16px;
+}
+
+.title {
+    margin:15px 16px;
+}
+
+.description {
+    margin: 25px;
+}
